@@ -20,7 +20,7 @@ myButton.onclick = () => {
 
 function redirectToPage() {
     
-    window.location.href = "testver2/BlakeG's Portfolio/Home page
+    window.location.href = "https://blakesg.github.io/testver2/BlakeG's Portfolio/Home page
 /Home.html
 ";
 }
