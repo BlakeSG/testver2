@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blake Gillanders-Portfolio</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="center-container">
+<h1> Hello who is this?.</h1>
+<div class="input-container">
+
+<input type="text" id="nameInput" placeholder="Enter your name">
+<button id="submitButton">Set Name</button>
+</div>
+</div>
+<script src="welcome.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCUvyMRYjPWLvoYYNi-qc3uz3RohJPWpyA",
+      authDomain: "blake-g-personal-portfolio.firebaseapp.com",
+      projectId: "blake-g-personal-portfolio",
+      storageBucket: "blake-g-personal-portfolio.appspot.com",
+      messagingSenderId: "323361656816",
+      appId: "1:323361656816:web:d0350e2c301c56faaa5735",
+      measurementId: "G-BZHMYQ97Z9"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>

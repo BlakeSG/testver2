@@ -1,0 +1,349 @@
+/* fonts! */
+
+@font-face {
+    font-family: grobold;
+    src: url(GROBOLD.ttf);
+}
+
+
+/*applies to everyting on the body*/
+body {
+    background-color:rgba(201, 201, 201, 0.836);
+    background: url(background1.jpg);
+
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.welcome{
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-size:45px;
+   
+    
+}
+/*header styles*/
+
+/* navigation buttons*/
+.button{
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button:hover{
+    background-color:rgba(1, 83, 150, 0.786); 
+}
+
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+   border-radius:2px;
+    border-bottom:solid 1px #333;
+    letter-spacing: 4px;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    left:40%;
+    flex: 1;
+    position:absolute;
+}
+
+.searchbox {
+    background-color: #a7a6a6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    box-sizing: border-box;
+
+}
+
+.left-menu {
+    position: relative;
+    z-index: 1;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e2e2e2d2;
+    min-width: 200px;
+    z-index: 2;
+    font-family:sans-serif;
+    padding-bottom:10px;
+    margin-top:11px;
+    border:1px solid black;
+    border-radius:5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.dropdown-content h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-left:10px;
+    padding-right:10px;
+    border-bottom:solid 1px #333;
+    padding-bottom:5px;
+    letter-spacing: 4px; 
+    margin-bottom: 20px; 
+    margin-top:-7px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.left-menu.active .dropdown-content {
+    display: block;
+}
+
+.right-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.right-menu li {
+    margin: 5px;
+
+}
+
+.right-menu a {
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif;
+   background-color:rgba(88, 87, 87, 0.493);
+   padding:5px;
+    border-radius:5px;
+}
+.right-menu a:hover{
+    background-color: rgba(1, 83, 150, 0.786)
+}
+.menu-icon{
+   
+    color:white;
+    padding:0;
+    rotate:90deg;
+    margin-left:5px;
+    font-size:20px;
+    margin-bottom:0;
+    margin-top:0;
+}
+nav{
+    background-color:black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin:0;
+    padding:0;
+    background-color:rgba(62, 62, 62, 0.574);
+}
+
+nav li {
+    margin: 5px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.69); 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+
+}
+nav a:hover {
+    background-color: rgba(1, 83, 150, 0.786); 
+}
+
+/*about section */
+
+.Aboutme {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1050px;
+    box-shadow: 0px 0px 10px rgba(215, 252, 200, 0.1);
+    border-radius: 5px;
+    align-content:center;
+}
+
+.about-content {
+   line-height:1.6; 
+   font-size:18px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    background-color:#c0fe913a; 
+    max-width:;
+}
+
+
+/*footer section*/
+footer{
+    color: white;
+    background-color:rgb(31, 31, 31);
+    margin-top:0;
+    padding: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+   
+}
+.footnav {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+.footnav:hover{
+    background-color:rgba(57, 57, 57, 0.8);
+}
+.footie{
+    text-align: center;
+}
+
+
+/*Projects page styling*/
+.pointer{
+    cursor:pointer;
+}
+.center{
+    text-align:center;
+}
+.web{
+    font-size: 20px;
+    text-align:center;
+}
+.net{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:5px;
+}
+.size{
+    font-size;
+}
+.netstyle{
+    border:1px solid black;
+    background-color:#ddffc44f;
+}
+
+
+/*expandable sections*/
+
+
+
+
+.section-content {
+    padding: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+   
+}
+
+
+
+
+details{
+    cursor:pointer;
+}
+/* web*/
+.Web502 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.Web502 h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.Web502 p {
+    text-align: justify;
+    line-height: 1.5;
+    color: #666;
+    
+}
+
+.Web502 details {
+    margin-top: 15px;
+}
+
+.Web502 summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.Web502 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.Web502 a:hover {
+    text-decoration: underline;
+}
+
+.title-effect {
+    font-size: 2.5rem; 
+    color: #555555; 
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    margin-bottom: 20px; 
+  }
+  
+  .project-description {
+    font-size: 1.2rem; 
+    color: #333; 
+    line-height: 1.6; 
+    
+  }
+  
+ ul{
+    list-style:none;
+   
+ }
+

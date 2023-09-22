@@ -1,0 +1,58 @@
+
+h1{
+    color:white;
+    font-family:sans-serif;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+button{
+    color:white;
+    background-color:gray;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+#nameinput{
+    color:white;
+}
+input{
+    color:white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:black; 
+}
+
+.center-container {
+    text-align: center;
+}
+
+.center-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap as needed */
+    align-items: center;
+}
+
+input[type="text"], button {
+    color: white;
+    background-color: rgb(206, 206, 206);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
