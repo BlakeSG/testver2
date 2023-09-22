@@ -20,6 +20,8 @@ myButton.onclick = () => {
 
 function redirectToPage() {
     
-    window.location.href = "/BlakeG's%20Portfolio/Home%20page/Home.html";
+    window.location.href = "testver2/BlakeG's Portfolio/Home page
+/Home.html
+";
 }
 
