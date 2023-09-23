@@ -107,4 +107,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+function clearUserName() {
+    localStorage.removeItem("name"); // Remove the "name" key from localStorage
+    const welcomeMessage = document.querySelector(".welcome-message");
+    welcomeMessage.textContent = "Welcome!"; // Reset the welcome message
+}
+
+// Add event listener to the Clear Username button
+document.getElementById("clearNameButton").addEventListener("click", function () {
+    clearUserName();
+});
+
 //contact form
